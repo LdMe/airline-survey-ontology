@@ -366,12 +366,28 @@
 }, {
   "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A bad review of the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Negative review"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A neutral review of the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Neutral Review"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"
   } ]
@@ -450,6 +466,14 @@
 }, {
   "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A good review of the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Positive Review"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"
   } ]

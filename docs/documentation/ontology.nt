@@ -273,10 +273,14 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A bad review of the flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#label> "Negative review"@en .
 # 
 # http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A neutral review of the flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/2000/01/rdf-schema#label> "Neutral Review"@en .
 # 
 # http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -298,6 +302,8 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A good review of the flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#label> "Positive Review"@en .
 # 
 # http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

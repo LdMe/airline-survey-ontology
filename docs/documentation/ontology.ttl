@@ -288,12 +288,16 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> ;
+                                                                                   rdfs:comment "A bad review of the flight"@en ;
+                                                                                   rdfs:label "Negative review"@en .
 
 
 ###  http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> ;
+                                                                                  rdfs:comment "A neutral review of the flight"@en ;
+                                                                                  rdfs:label "Neutral Review"@en .
 
 
 ###  http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin
@@ -318,7 +322,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview
 <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> ;
+                                                                                   rdfs:comment "A good review of the flight"@en ;
+                                                                                   rdfs:label "Positive Review"@en .
 
 
 ###  http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat

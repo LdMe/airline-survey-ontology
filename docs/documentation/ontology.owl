@@ -458,6 +458,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"/>
+        <rdfs:comment xml:lang="en">A bad review of the flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Negative review</rdfs:label>
     </owl:Class>
     
 
@@ -467,6 +469,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"/>
+        <rdfs:comment xml:lang="en">A neutral review of the flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Neutral Review</rdfs:label>
     </owl:Class>
     
 
@@ -508,6 +512,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review"/>
+        <rdfs:comment xml:lang="en">A good review of the flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Positive Review</rdfs:label>
     </owl:Class>
     
 
