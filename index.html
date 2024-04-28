@@ -1,111 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>flight-survey-ontology</title>
-    <link rel="stylesheet" href="vocab/themes/blue/style.css" type="text/css" media="print, projection, screen" />
-    <script src="vocab/js/jquery-1.11.0.js"></script>
-    <script type="text/javascript" src="vocab/js/bootstrap.js"></script>
-    <script type="text/javascript" id="js">
-	    $(document).ready(function() 
-		    { 
-		    	$("#tablesorter-demo").tablesorter(); 
-		    	$("#tablesorter-demo").stickyTableHeaders(); 
-		    	$('[data-toggle="tooltip"]').tooltip(); 
-		    } 
-	    ); 
-    </script>
-
-    <!-- Le styles -->
-    <link href="vocab/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="vocab/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-  </head>
-
-  <body>
-
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Vocabularies</a></li>
-        <li><a href="report.html">Vocabulary report</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
- </div>
-    <div class="container">
-
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>flight-survey-ontology landing page</h1>
-        <p class="lead">Here you can find the list of vocabularies that have been found on flight-survey-ontology.</p>
-      </div>
-      <hr>
-<div class="row"> 
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
 </div>
-<br>
-<table id="tablesorter-demo" class="tablesorter table table-hover table-responsive">
-<thead>
-<tr>
-<th class="col-md-2">Ontology</th>
-<th class="col-md-1">Serialization</th>
-<th class="col-md-2">License</th>
-<th class="col-md-1">Language</th>
-<th class="col-md-6">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr id="tr1">
-<td><a href = "/home/ahmad/repos/prevclone-L0mo/survey.owl" target="_blank">Flight Survey Ontology</a> </td><td>
-<a href="ontologies/survey.owl"><span class="label label-primary">RDF/XML</span></a>
-</td>
-<td><span class="label label-default">Undefined</span></td>
-<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
-<td>
-Ontology of flight surveys</td>
-</tr><tr id="tr2">
-<td><a href = "/home/ahmad/repos/prevclone-L0mo/ontologia_travel.rdf" target="_blank">Flight Survey Ontology</a> </td><td>
-<a href="ontologies/ontologia_travel.rdf"><span class="label label-primary">RDF/XML</span></a>
-</td>
-<td><span class="label label-default">Undefined</span></td>
-<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
-<td>
-Ontology of flight surveys</td>
-</tr></tbody></table>
-<hr>
-      <footer class="footer">
-           <footer class="footer">
-            <div class="row">
-    	<div class="col-md-10">
-    		Page created with  <a href = "https://github.com/dgarijo/vocabLite" target="_blank">VocabLite</a> (<a href="http://oeg-upm.net/">Ontology Engineering Group</a>)
-	        <br>
-    	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
- 	        <br>
-	        Latest revision April, 2024
-        </div>
-		<div class="col-md-2">
-			<a href="https://github.com/dgarijo/vocabLite"><img width="140px"src="vocab/logoLite.png"></img></a>
-		</div>
-      </footer>      </div>
-      </footer>
-    </div> <!-- /container -->
+<link rel="icon" type="image/png" href="resources/rdf.icon"/> <title>Flight Survey Ontology</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey","name":"Flight Survey Ontology", "headline":"Document describing the ontology http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey", "dateReleased":"Sun Apr 28 19:52:41 CEST 2024"}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ };    $(function(){
+      $("#abstract").load("sections/abstract-en.html"); 
+      $("#introduction").load("sections/introduction-en.html"); 
+      $("#nstable").load("sections/ns-en.html"); 
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#references").load("sections/references-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+    });
+    </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Flight Survey Ontology</h1>
+
+
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey">http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey</a></dd>
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd> Flight Survey Ontology.</dd>
+</dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"></div>
+<div id="toc"></div>     <div id="introduction"></div>
+	  <div id="nstable"></div>
+     <div id="overview"></div>
+     <div id="description"></div>
+     <div id="crossref"></div>
+     <div id="references"></div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

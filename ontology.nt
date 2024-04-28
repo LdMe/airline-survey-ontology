@@ -1,0 +1,452 @@
+<http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey> <http://purl.org/dc/elements/1.1/description> "Ontology of flight surveys"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey> <http://purl.org/dc/elements/1.1/title> "Flight Survey Ontology"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology of flight surveys"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/flight-survey> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Survey Ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the aircraft that a flight uses."@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#label> "has aircraft"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "The country of origin of a passenger"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "has country of origin"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the destination city of a flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.w3.org/2000/01/rdf-schema#label> "has destination"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the flight a passenger takes"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.w3.org/2000/01/rdf-schema#label> "has flight"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the date when the flight starts"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.w3.org/2000/01/rdf-schema#label> "has flight date"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the origin city of a flight or review"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "has origin"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a Passenger with its associated review"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "has review"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Seat class of the passenger of the flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.w3.org/2000/01/rdf-schema#label> "has seat class"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the travel type of the passenger."@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.w3.org/2000/01/rdf-schema#label> "has travel type"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the airline that operates the flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "operated by"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains the main text content of a review"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> <http://www.w3.org/2000/01/rdf-schema#label> "has body"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2001/XMLSchema#maxInclusive> "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2001/XMLSchema#minInclusive> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#int> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the numeric rating assigned to a review"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "has rating"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the title or summary of a review"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "has title"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the reviewer recommends the airline or flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> <http://www.w3.org/2000/01/rdf-schema#label> "is recommended"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle used for air travel"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Aircraft"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "A company that provides air transport services"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Airline"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat> <http://www.w3.org/2000/01/rdf-schema#comment> "A class of seating on an aircraft that is superior to economy class but less expensive than first class, intended especially for people travelling on business"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat> <http://www.w3.org/2000/01/rdf-schema#label> "Bussines Class Seat"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> <http://www.w3.org/2000/01/rdf-schema#comment> "Travel for work or business purposes"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> <http://www.w3.org/2000/01/rdf-schema#label> "Business Travel"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> <http://www.w3.org/2000/01/rdf-schema#comment> "A large urban area"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/ontology/City"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A nation with its own government, occupying a particular territory"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Country"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#comment> "Recreational travel by a couple"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#label> "Couple Leisure Travel"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The day of the month or year as specified by a number"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> <http://www.w3.org/2000/01/rdf-schema#comment> "The city a flight goes to"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#comment> "The lowest travel class of seating in air travel"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#label> "Economy Class Seat"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#comment> "Recreational travel by a family"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#label> "Family Leisure Travel"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat> <http://www.w3.org/2000/01/rdf-schema#comment> "The most premium seat in the first class section of an aircraft"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat> <http://www.w3.org/2000/01/rdf-schema#label> "First Class Seat"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "A journey made through the air by an aircraft"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Date> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the flight takes off"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Date"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#City> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "The city a flight comes from"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who takes a flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Passenger"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Country> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "The country the passenger is from"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> <http://www.w3.org/2000/01/rdf-schema#label> "Passenger Country"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#comment> "An upgraded seat in the premium economy class section of an aircraft"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> <http://www.w3.org/2000/01/rdf-schema#label> "Premium Economy Class Seat"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "A critical appraisal of a flight"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> <http://www.w3.org/2000/01/rdf-schema#comment> "A category or type of seat on an aircraft, differentiated by factors such as price, comfort, and amenities"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SeatClass> <http://www.w3.org/2000/01/rdf-schema#label> "Seat Class"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#comment> "Recreational travel undertaken by an individual"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel> <http://www.w3.org/2000/01/rdf-schema#label> "Solo Leisure Travel"@en .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> <http://www.w3.org/2000/01/rdf-schema#comment> "The reason of the travel"@en .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#TravelType> <http://www.w3.org/2000/01/rdf-schema#label> "Travel Type"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomySeatClass_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomySeatClass_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomySeatClass_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasAircraft> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Aircraft_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasDestination> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Destination_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlightDate> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FlightDate_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasOrigin> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#operatedBy> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Airline_Instance> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Origin> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasCountryOfOrigin> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PassengerCountry_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasFlight> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Flight_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasReview> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasSeatClass> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomySeatClass_Instance> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Passenger_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTravelType> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel_Instance> .
+# 
+# http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasBody> "Remarkable experience. Great tasting food, leg space and incredible service, and a very clean plane. Inflight entertainment was great too. The staff was very polite." .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasRating> "4"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#hasTitle> "“incredible service”" .
+<http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#Review_Instance> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#isRecommended> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid9 <http://www.w3.org/2002/07/owl#members> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PremiumEconomyClassSeat> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FirstClassSeat> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#EconomyClassSeat> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessClassSeat> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid14 <http://www.w3.org/2002/07/owl#members> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#SoloLeisureTravel> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#FamilyLeisureTravel> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#CoupleLeisureTravel> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#BusinessTravel> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid19 <http://www.w3.org/2002/07/owl#members> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#PositiveReview> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NeutralReview> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/danel/ontologies/2024/3/airline-survey#NegativeReview> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
